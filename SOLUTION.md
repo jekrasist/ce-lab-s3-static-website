@@ -1,8 +1,8 @@
 # Lab Solution: Host a Static Website on Amazon S3
 
-**Student Name:** ___________________________  
-**Date:** ___________________________  
-**Lab Completion Time:** ___________ minutes
+**Student Name:** ____Ahmet Erdogan_______________________  
+**Date:** ____________________04.02.2026_______  
+**Lab Completion Time:** _________~70__ minutes
 
 ---
 
@@ -10,17 +10,18 @@
 
 ### Bucket Information
 
-**Bucket Name:** ___________________________
+**Bucket Name:** ___________my-static-website-ae-2026________________
 
-**Region:** ___________________________
+**Region:** ___________us-east-1________________
 
 **Bucket Website Endpoint URL:**
 ```
-___________________________________________________________
+________________http://my-static-website-ae-2026.s3-website-us-east-1.amazonaws.com___________________________________________
 ```
 
 **Screenshot 1: Bucket Creation Confirmation**
-![Bucket Created](screenshots/01-bucket-created.png)
+![Bucket Created](<img width="1078" height="97" alt="image" src="https://github.com/user-attachments/assets/12526d27-47b5-4e2f-8fa0-d851fb75f36d" />
+)
 
 ---
 
@@ -33,7 +34,8 @@ ___________________________________________________________
 **Error Document:** ___________________________
 
 **Screenshot 2: Static Website Hosting Settings**
-![Static Hosting Config](screenshots/02-static-hosting-config.png)
+![Static Hosting Config](<img width="1346" height="313" alt="image" src="https://github.com/user-attachments/assets/77cbfc21-8fed-4670-ac5c-be1e29352fea" />
+)
 
 ---
 
@@ -42,11 +44,11 @@ ___________________________________________________________
 ### Files Created
 
 List the files you created:
-1. ___________________________
-2. ___________________________
-3. ___________________________
+1. ____error.html_______________________
+2. ___________styles.css________________
+3. ______________index.html_____________
 
-**Did you customize the HTML/CSS?** (Yes/No): ______
+**Did you customize the HTML/CSS?** (Yes/No): __no____
 
 **If yes, describe your customizations:**
 ```
@@ -56,7 +58,8 @@ _____________________________________________________________
 ```
 
 **Screenshot 3: Files Uploaded to S3**
-![Files in S3](screenshots/03-files-uploaded.png)
+![Files in S3](<img width="1600" height="500" alt="image" src="https://github.com/user-attachments/assets/2e24582d-ac35-47e0-83ef-e14588f28e21" />
+)
 
 ---
 
@@ -80,7 +83,8 @@ _____________________________________________________________
 ```
 
 **Screenshot 4: Bucket Policy Configuration**
-![Bucket Policy](screenshots/04-bucket-policy.png)
+![Bucket Policy](<img width="1600" height="530" alt="image" src="https://github.com/user-attachments/assets/fc5f5023-9caf-4e8c-a8ac-7eafa29a505b" />
+)
 
 ---
 
@@ -88,29 +92,31 @@ _____________________________________________________________
 
 ### Website Testing
 
-**Website URL (from endpoint):**
+**Website URL (from endpoint):**http://my-static-website-ae-2026.s3-website-us-east-1.amazonaws.com
 ```
 ___________________________________________________________
 ```
 
-**Did the website load successfully?** (Yes/No): ______
+**Did the website load successfully?** (Yes/No): __yes____
 
-**Did the CSS styling apply correctly?** (Yes/No): ______
+**Did the CSS styling apply correctly?** (Yes/No): ___yes___
 
 **Screenshot 5: Working Website**
-![Website Live](screenshots/05-website-live.png)
+![Website Live](<img width="1600" height="713" alt="image" src="https://github.com/user-attachments/assets/4002bc59-6888-4bfd-8dc5-f27f54827e96" />
+)
 
 ### Error Page Testing
 
-**Test URL used:**
+**Test URL used:**http://my-static-website-ae-2026.s3-website-us-east-1.amazonaws.com/html
 ```
 ___________________________________________________________
 ```
 
-**Did custom error page display?** (Yes/No): ______
+**Did custom error page display?** (Yes/No): ___yes___
 
 **Screenshot 6: Custom 404 Error Page**
-![Error Page](screenshots/06-error-page.png)
+![Error Page](<img width="1600" height="279" alt="image" src="https://github.com/user-attachments/assets/c3883c23-a539-4060-bd22-a7c413ffaba1" />
+)
 
 ---
 
@@ -160,7 +166,7 @@ _____________________________________________________________
 
 **Your answer:**
 ```
-_____________________________________________________________
+____________No costs when idle, no expensive hardware needed and scalability_________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
@@ -170,7 +176,7 @@ _____________________________________________________________
 
 **Your answer:**
 ```
-_____________________________________________________________
+___To grant read only access__________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 ```
@@ -179,7 +185,7 @@ _____________________________________________________________
 
 **Your answer:**
 ```
-_____________________________________________________________
+____________no database connection_________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 ```
@@ -188,7 +194,7 @@ _____________________________________________________________
 
 **Your answer:**
 ```
-_____________________________________________________________
+___when I need advanced security.__________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 ```
@@ -197,7 +203,7 @@ _____________________________________________________________
 
 **Your answer:**
 ```
-_____________________________________________________________
+_____________No idle charges and less administrative headache.________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 ```
@@ -206,7 +212,7 @@ _____________________________________________________________
 
 ## Troubleshooting Log
 
-**Did you encounter any issues?** (Yes/No): ______
+**Did you encounter any issues?** (Yes/No): __no____
 
 **If yes, document the issues and how you resolved them:**
 
